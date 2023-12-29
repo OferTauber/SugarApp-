@@ -5,11 +5,14 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.2",
     "@swc/helpers": "~0.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
-    "styled-components": "5.3.6",
+    "react-router-dom": "^6.21.1",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

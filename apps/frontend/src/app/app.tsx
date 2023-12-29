@@ -1,17 +1,9 @@
-import styled from 'styled-components';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { router } from './routes/routes';
 
 export function App() {
-  return (
-    <StyledApp>
-      <NxWelcome title="frontend" />
-    </StyledApp>
-  );
+  return <RouterProvider {...{ router }} />;
 }
 
 export default App;
